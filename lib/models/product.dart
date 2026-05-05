@@ -52,7 +52,7 @@ final List<Category> dummyCategories = [
   Category(id: '3', name: 'Iced Coffee', icon: '🧊', color: const Color(0xFFE91E8C)),
   Category(id: '4', name: 'Espresso', icon: '🥤', color: const Color(0xFF50C878)),
   Category(id: '5', name: 'Desserts', icon: '🍰', color: const Color(0xFFF5A623)),
-  Category(id: '6', name: 'Beans', icon: '🫘', color: const Color(0xFF9B59B6)),
+  Category(id: '6', name: 'Coffee Beans', icon: '🫘', color: const Color(0xFF9B59B6)),
 ];
 
 final List<Product> dummyProducts = [
@@ -63,7 +63,7 @@ final List<Product> dummyProducts = [
     price: 299.99,
     oldPrice: 399.99,
     imageUrl: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500',
-    category: 'Electronics',
+    category: 'Hot Coffee',
     rating: 4.8,
     reviewCount: 1240,
     isNew: true,
@@ -78,7 +78,7 @@ final List<Product> dummyProducts = [
     description: 'A smooth latte with delicate milk art, served in a stylish cup with a calm café atmosphere and soft lighting.',
     price: 189.00,
     imageUrl: 'https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=500',
-    category: 'Fashion',
+    category: 'Hot',
     rating: 4.6,
     reviewCount: 856,
     images: [
@@ -93,7 +93,7 @@ final List<Product> dummyProducts = [
     price: 129.99,
     oldPrice: 159.99,
     imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500',
-    category: 'Electronics',
+    category: 'Coffee',
     rating: 4.5,
     reviewCount: 2100,
     isNew: true,
@@ -108,7 +108,7 @@ final List<Product> dummyProducts = [
     price: 119.00,
     oldPrice: 145.00,
     imageUrl: 'https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?w=500',
-    category: 'Sports',
+    category: 'Coffee',
     rating: 4.7,
     reviewCount: 3400,
     images: [
@@ -122,7 +122,7 @@ final List<Product> dummyProducts = [
     description: 'Premium roasted coffee beans captured in a rustic café setting, showcasing rich texture and deep brown tones.',
     price: 245.00,
     imageUrl: 'https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=500',
-    category: 'Fashion',
+    category: 'Coffee',
     rating: 4.9,
     reviewCount: 678,
     images: [
